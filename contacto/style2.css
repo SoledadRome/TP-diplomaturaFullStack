@@ -5,7 +5,7 @@
 
 header{
     background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
-    url(../Images/saunahotel.jpg);
+    url(/Images/saunahotel.jpg);
     background-size: cover;
     background-position: 100%;
     background-repeat: no-repeat;
