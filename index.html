@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabañas El Alamo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="/Images/logo cabañas el alamo HORIZONTAL.png" alt="logo" class="logo">
+            <ul class="menuhorizontal">
+                <li><a href="index.html">Inicio</a></li>
+                <li>
+                    <a href="habitaciones/index3.html">Habitaciones</a>
+                    <ul class="room-options">
+                        <li class="vertical"><a href="#" title="mono">Monoambiente</a></li>
+                        <li class="vertical"><a href="#" title="para4">Cabaña 4 personas</a></li>
+                        <li class="vertical"><a href="#" title="para6">Cabaña 6 personas</a></li>
+                    </ul>
+                </li>
+                <li><a href="ubicacion/index4.html">Ubicación</a></li>
+                <li class="contact"><a href="contacto/index2.html">Contacto</a></li>
+                <li><a href="galeria/index5.html">Galería</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+            </ul>
+        </nav>
+        <div id="booking">
+
+            <h5 id="mejor">MEJOR PRECIO<br>GARANTIZADO</h5>
+            
+            <div class="bookingLlegada">
+              <input type="date" value="LLEGADA" title="LLEGADA" min="2024-01-01" max="2025-01-31" class="fechas">
+            </div>
+            <div class="bookingSalida">
+                <input title="SALIDA" type="date" value="SALIDA" min="2024-01-01" max="2025-01-31" class="fechas">
+            </div>
+            <div class="selector-adultos">
+                <select name="adults" title="Adultos" id="Adults" class="AdultsValue">
+                    <option value="-1" selected>ADULTOS</option>
+                    <option value="1">1 Adulto</option>
+                    <option value="2">2 Adultos</option>
+                    <option value="3">3 Adultos</option>
+                    <option value="4">4 Adultos</option>
+                    <option value="5">5 Adultos</option>
+                    <option value="6">6 Adultos</option>
+                </select>
+            </div>
+            <div class="selector-menores">
+                <select name="children" title="Menores" id="childrens" class="childrensValue">
+                    <option value="-1" selected>MENORES</option>
+                    <option value="1">1 Menor</option>
+                    <option value="2">2 Menores</option>
+                    <option value="3">3 Menores</option>
+                    <option value="4">4 Menores</option>
+                    <option value="5">5 Menores</option>
+                    <option value="6">6 Menores</option>
+                </select>
+            </div>
+            <div class="booking-r">
+                <button class="consult">CONSULTAR</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="first">
+        <div class="carrousel">
+            <img class="break" src="/Images/Desayuno_pileta_hotel.jpg" alt="">
+        </div>
+        <div class="presentation">
+            <h1>El Álamo Cabañas</h1>
+            <p class="present">
+                <b>El Álamo Cabañas</b> lo espera para disfrutar de la majestuosa belleza de las sierras de San Luis
+                Argentina. <br> <br>
+
+                Ubicado estratégicamente en una de las áreas más destacadas de la Villa de Merlo, nuestras cabañas
+                ofrecen una
+                experiencia incomparable donde la tranquilidad de la naturaleza se fusiona con la sofisticación y el
+                confort de nuestras instalaciones de primer nivel.
+            </p>
+            <div class="icons">
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-solid fa-mug-hot"></i>
+                <i class="fa-solid fa-water-ladder"></i>
+                <i class="fa-solid fa-spa"></i>
+                <i class="fa-solid fa-car"></i>
+                <i class="fa-solid fa-utensils"></i>
+                <i class="fa-solid fa-tv"></i>
+                <i class="fa-solid fa-suitcase-rolling"></i>
+            </div>
+        </div>
+    </section>
+    <section class="rooms">
+        <h2>Habitaciones</h2>
+        <div class="cards">
+            <div class="monoambiente">
+                <img class="mono" src="/Images/Baño_hotel.jpg" alt="">
+                <h3>Monoambiente</h3>
+                <p>Equipadas con: Camas: 3 camas individuales ó 1 cama matrimonial y 1 cama twin. Colchones tipo
+                    “Americano” King Size. Heladera tipo frigobar. Secador de pelo. Smart TV. Caja de seguridad.
+                    Conexión a Internet inalámbrica (Wi-Fi). Aire acondicionado y calefacción central</p>
+                <button class="vermas">Ver detalles</button>
+            </div>
+            <div class="pax4">
+                <img class="paxc" src="/Images/Cama_aire_libre.jpg" alt="">
+                <h3>Cabaña hasta 4 pax</h3>
+                <p>Equipadas con: Camas: 3 camas individuales ó 1 cama matrimonial y 1 cama twin. Colchones tipo
+                    “Americano” King Size. Heladera tipo frigobar. Secador de pelo. Smart TV. Caja de seguridad.
+                    Conexión a Internet inalámbrica (Wi-Fi). Aire acondicionado y calefacción central</p>
+                <button class="vermas">Ver detalles</button>
+            </div>
+            <div class="pax6">
+                <img class="paxs" src="/Images/Reposeras_hotel.jpg" alt="">
+                <h3>Cabaña hasta 6px</h3>
+                <p>Equipadas con: Camas: 3 camas individuales ó 1 cama matrimonial y 1 cama twin. Colchones tipo
+                    “Americano” King Size. Heladera tipo frigobar. Secador de pelo. Smart TV. Caja de seguridad.
+                    Conexión a Internet inalámbrica (Wi-Fi). Aire acondicionado y calefacción central</p>
+                <button class="vermas">Ver detalles</button>
+            </div>
+        </div>
+    </section>
+    <section class="service" id="servicios">
+        <div class="title_service">
+            <hr>
+            <h2>SERVICIOS</h2>
+            <hr>
+        </div>
+        <div class="options">
+            <div class="serv1">
+                <div class="icon">
+                    <i class="fa-solid fa-door-closed"></i>
+                </div>
+                <h4>Habitaciones</h4>
+                <p class="service">Nuestras habitaciones estan completamente equipadas para su mayor confort</p>
+            </div>
+            <div class="serv2">
+                <div class="icon">
+                    <i class="fa-solid fa-spa"></i>
+                </div>
+                <h4>Spa</h4>
+                <p class="service">Contamos con un moderno Spa para que su relax sea completo</p>
+            </div>
+            <div class="serv3">
+                <div class="icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <h4>A metros del centro</h4>
+                <p class="service">Las Cabañas se encuentran a unos 500mts del centro de la Ciudad, a solo 150mts de la
+                    Av del Libertador.</p>
+            </div>
+            <div class="serv4">
+                <div class="icon">
+                    <i class="fa-solid fa-utensils"></i>
+                </div>
+                <h4>Restaurant</h4>
+                <p class="service">Restaurante con amplia variedad de entradas, platos principales y postres</p>
+            </div>
+        </div>
+    </section>
+    <section class="gallery" id="galería">
+        <div class="title_gallery">
+            <hr>
+            <h2>GALERÍA</h2>
+            <hr>
+        </div>
+        <div class="images">
+            <img class="galle" src="/Images/Baño_hotel.jpg" alt="">
+            <img class="galle" src="/Images/Desayuno_hotel.jpg" alt="">
+            <img class="galle" src="/Images/Fachada_cabañas.jpg" alt="">
+        </div>
+        <div class="images">
+            <img class="galle" src="/Images/Cabañas_apart.jpg" alt="">
+            <img class="galle" src="/Images/Pileta_hotel.jpg" alt="">
+            <img class="galle" src="/Images/Reposeras_hotel.jpg" alt="">
+        </div>
+    </section>
+    <section class="pay">
+        <div class="title_gallery">
+            <hr>
+            <h2>MEDIOS DE PAGO</h2>
+            <hr>
+        </div>
+        <div class="payments">
+            <div class="cash">
+                <div class="icon">
+                    <i class="fa-solid fa-building-columns"></i>
+                </div>
+                <h4>Déposito o transferencia bancaria</h4>
+            </div>
+            <div class="debit">
+                <div class="icon">
+                    <i class="fa-solid fa-money-bills"></i>
+                </div>
+                <h4>Efectivo</h4>
+            </div>
+            <div class="bank">
+                <div class="icon">
+                    <i class="fa-regular fa-credit-card"></i>
+                </div>
+                <h4>Tarjeta de credito</h4>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="left">
+                <div class="prim">
+                   <div class="mailicon">
+                     <i class="fa-regular fa-envelope"></i>
+                   </div>
+                    <h2 class="news"><em>Novedades</em></h2>
+                </div>
+                <div class="sec">
+                    <input type="email" name="email" placeholder="Escribe tu email" class="input" required>
+                    <button class="emailbut">ENVIAR</button>
+                </div>
+                <div class="ter">
+                    <div class="social">
+                        <a href="https://www.facebook.com/elalamo.merlo/about?locale=es_LA" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <div class="insta">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+               <h5 id="contact">CONTACTO</h5>
+                <div class="cel">
+                    <i class="fa-solid fa-phone"></i>
+                    <h6>0800 222 3454</h6>
+                </div>
+                <div class="cel">
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="https://wa.link/lxsnlq" target="_blank" class="celu" title="celular">+54 9 (11) 6056 6253</a>
+                </div>
+                <div class="ubi">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <a href="https://maps.app.goo.gl/JzWmJuMW5aHuZqoAA" class="ubicacion" target="_blank"><b id="ubidireccion">Calle 998 N°36 | El Álamo</b></a>
+                </div>
+            </div>
+        </div>
+        <div class="footerlinks">
+            <p class="foott">Al utilizar este sitio web, acepta el uso de cookies. Política de cookies | Términos y condiciones |
+                Política de privacidad | Cache: 2024-07-28 23:41:02 | Textos | Framework: 3 | Tag: GoogleAds</p>
+        </div>
+    </footer>
+    <a href="https://wa.link/lxsnlq" class="btn-wsp" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+</body>
+
+</html>

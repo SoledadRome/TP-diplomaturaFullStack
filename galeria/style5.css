@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+header{
+    height: 250px;
+    margin-bottom: 20px;
+}
+.subrayado{
+    width: 200px;
+    text-align: center;
+    margin-left: 41%;
+    color: rgba(1, 89, 57, 1);
+}
+.logo{
+    height: 85px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+nav{
+    background-color: whitesmoke;
+    height: 18%;
+    width: 100%;
+    position: fixed;
+}
+.menuhorizontal{
+    display: flex;
+    list-style: none;
+    margin-top: -7%;
+    justify-content: right;
+    margin-right: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menuhorizontal > li > a {
+    display: block;
+    padding: 15px 15px;
+    color: rgb(54, 53, 53);
+    text-decoration: none;
+}
+li:hover{
+    text-decoration: underline;
+}
+.room-options {
+     position: absolute;
+     display: none;
+     list-style: none;
+     width: 160px;
+     padding: 5px;
+     background-color: rgb(119, 119, 119, .5);
+}
+.menuhorizontal li:hover .room-options{
+    display: block;
+}
+.vertical{
+    margin: 5px;
+}
+.vertical:hover{
+    background-color: rgba(1, 89, 57, 0.5);
+}
+a{
+    text-decoration: none;
+    color: rgb(1, 89, 57, 1);
+}
+h1{
+    text-align: center;
+    font-size: 45px;
+    color: rgba(1, 89, 57, 1);
+    padding-top: 13%;
+    font-family: "Roboto", sans-serif;
+}
+.images{
+    width: 100%;
+    text-align: center;
+}
+.galle{
+    height: 200px;
+    margin: 1%;
+    width: 300px;
+}
+.boxgalle{
+    background-color: #EAEAEA;
+}
+.minititle{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    color: rgba(1, 89, 57, 1);
+    font-weight: solid;
+}
+h2{
+    text-align: center;
+    padding: 2%;
+    font-size: 35px;
+    font-family:"Roboto", sans-serif;
+}
+hr{
+    height: 2px;
+    background-color: rgba(1, 89, 57, 1);
+}
+.payments{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.bank, .debit, .cash{
+    padding: 30px;
+    width: 250px;
+    margin: 2%;
+}
+.icon{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    align-items: center;
+    font-size: 40px;
+    border-color: rgba(1, 89, 57, 1);
+    border-style: solid;
+    margin-left: 25%;
+    color: rgba(1, 89, 57, 1);
+}
+
+h4{
+    margin: 30px;
+    text-align: center;
+    font-family:"Roboto", sans-serif;
+}
+
+.footerlinks{
+    background-color: rgb(119, 119, 119);
+    padding: 15px;
+    text-align: center;
+    
+}
+button:hover{
+    background-color: black;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+.left{
+    background-color: rgb(162, 160, 160);
+    width: 65%;
+}
+.right{
+    background-color: rgb(197, 192, 192);
+    width: 35%;    
+    font-family:"Roboto", sans-serif;
+}
+.cel, .ubi {
+    display: flex;
+    font-size: 23px;
+    margin-top: 17px;
+    margin-left: 35px;
+}
+h5{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.cont{
+    font-size: 18px;
+}
+.foott{
+    margin-bottom: 3px;
+    font-size: 12px;
+}
+.news{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.prim, .sec, .ter{
+    margin-left: 100px;
+    display: flex;
+    margin-bottom: 15px;
+}
+.mailicon{
+    font-size: 25px;
+    border-style: solid;
+    border-width: 3px;
+    height: 27px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 12px;
+}
+.prim{
+    margin-top: 40px;
+}
+.ter{
+    font-size: 20px;
+}
+.insta{
+    margin-left: 10px;
+}
+.input{
+    width: 51%;
+    height: 40px;
+    background-color: whitesmoke;
+    padding-left: 15px;
+    border-radius: 8px 0 0 8px;
+    border-style: none;
+}
+.emailbut{
+    height: 40px;
+    font-size: 12px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 0 8px 8px 0;
+    border-style: none;
+    background-color: rgba(1, 89, 57, 1);
+    color: whitesmoke;
+}
+.ubicacion{
+    text-decoration: none;
+    color: black;
+    font-family:"Roboto", sans-serif;
+    font-size: 18px;
+    margin-left: 25px;
+}
+.ubicacion:hover{
+    text-decoration: underline;
+}
+.footerlinks{
+    background-color: rgb(119, 119, 119);
+    text-align: center; 
+}
+.foott{
+    font-size: 12px;
+    font-family:"Roboto", sans-serif;
+}
+.celu, h6{
+    margin-left: 4.5%;
+    font-size: 16px;
+    color: black;
+}
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 40px;
+}
+.btn-wsp:hover{
+    text-decoration: none;
+    color: #25D366;
+    background-color: white;
+}
