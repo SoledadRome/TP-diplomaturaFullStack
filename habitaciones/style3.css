@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0; 
@@ -296,3 +297,303 @@ h5{
 
 
 
+=======
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+header{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+    url(/Images/Cama_aire_libre.jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.logo{
+    height: 85px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+nav{
+    background-color: whitesmoke;
+    height: 19%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.menuhorizontal{
+    display: flex;
+    list-style: none;
+    margin-top: -7%;
+    justify-content: right;
+    margin-right: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menuhorizontal > li > a {
+    display: block;
+    padding: 15px 15px;
+    color: rgb(54, 53, 53);
+    text-decoration: none;
+}
+li:hover{
+    text-decoration: underline;
+}
+.room-options {
+     position: absolute;
+     display: none;
+     list-style: none;
+     width: 160px;
+     padding: 5px;
+     background-color: rgb(119, 119, 119, .5);
+}
+.menuhorizontal li:hover .room-options{
+    display: block;
+}
+.vertical{
+    margin: 5px;
+}
+.vertical:hover{
+    background-color: rgba(1, 89, 57, 0.5);
+}
+a{
+    text-decoration: none;
+    color: rgb(1, 89, 57, 1);
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 250px;
+    color: rgba(1, 89, 57, 1);
+    font-family: "Roboto", sans-serif;;
+}
+.card-rooms{
+    background-image: url(../Images/Interior\ cab.jpg);
+    margin: 6%;
+    height: 400px;
+    border: solid;
+    border-color: rgba(1, 89, 57, 1);
+    background-size: cover;
+    background-position: 100%;
+    text-align: center;
+}
+.card-rooms2{
+    background-image: url(../Images/cabañas\ interior.jpg);
+    margin: 6%;
+    height: 400px;
+    border: solid;
+    border-color: rgba(1, 89, 57, 1);
+    background-size: cover;
+    background-position: 100%;
+    text-align: center;
+}
+.card-rooms3{
+    background-image: url(../Images/Interior\ 3.jpg);
+    margin: 6%;
+    height: 400px;
+    border: solid;
+    border-color: rgba(1, 89, 57, 1);
+    background-size: cover;
+    background-position: 100%;
+    text-align: center;
+}
+.text-one{
+    background-image: linear-gradient(rgba(240, 233, 233, 0.534), rgba(220, 208, 208, 0.512));
+    width: 40%;
+    height: 100%;
+    margin-left: 60%;
+    font-family:"Roboto", sans-serif;
+}
+.card-title{
+  padding: 10%;
+  color: rgba(1, 89, 57, 1);
+}
+.card-text{
+    padding: 0 7%;
+}
+.btnmore{
+    margin-top: 10%;
+    padding: 3%;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgba(1, 89, 57, 1);
+    color: white;
+}
+button:hover{
+    background-color: black;
+}
+h2{
+    text-align: center;
+    padding: 2%;
+    font-size: 35px;
+    font-family:"Roboto", sans-serif;
+}
+hr{
+    height: 2px;
+    background-color: rgba(1, 89, 57, 1);
+}
+.payments{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.bank, .debit, .cash{
+    padding: 30px;
+    width: 250px;
+    margin: 2%;
+}
+.icon{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    align-items: center;
+    font-size: 40px;
+    border-color: rgba(1, 89, 57, 1);
+    border-style: solid;
+    margin-left: 25%;
+    color: rgba(1, 89, 57, 1);
+}
+
+h4{
+    margin: 30px;
+    text-align: center;
+    font-family:"Roboto", sans-serif;
+}
+
+.footerlinks{
+    background-color: rgb(119, 119, 119);
+    padding: 15px;
+    text-align: center;
+    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+.left{
+    background-color: rgb(162, 160, 160);
+    width: 65%;
+}
+.right{
+    background-color: rgb(197, 192, 192);
+    width: 35%;    
+    font-family:"Roboto", sans-serif;
+}
+.cel, .ubi {
+    display: flex;
+    font-size: 23px;
+    margin-top: 17px;
+    margin-left: 35px;
+}
+h5{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.cont{
+    font-size: 18px;
+}
+.foott{
+    margin-bottom: 3px;
+    font-size: 12px;
+}
+.news{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.prim, .sec, .ter{
+    margin-left: 100px;
+    display: flex;
+    margin-bottom: 15px;
+}
+.mailicon{
+    font-size: 25px;
+    border-style: solid;
+    border-width: 3px;
+    height: 27px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 12px;
+}
+.prim{
+    margin-top: 40px;
+}
+.ter{
+    font-size: 20px;
+}
+.insta{
+    margin-left: 10px;
+}
+.input{
+    width: 51%;
+    height: 40px;
+    background-color: whitesmoke;
+    padding-left: 15px;
+    border-radius: 8px 0 0 8px;
+    border-style: none;
+}
+.emailbut{
+    height: 40px;
+    font-size: 12px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 0 8px 8px 0;
+    border-style: none;
+    background-color: rgba(1, 89, 57, 1);
+    color: whitesmoke;
+}
+.ubicacion{
+    text-decoration: none;
+    color: black;
+    font-family:"Roboto", sans-serif;
+    font-size: 18px;
+    margin-left: 25px;
+}
+.ubicacion:hover{
+    text-decoration: underline;
+}
+.footerlinks{
+    background-color: rgb(119, 119, 119);
+    text-align: center; 
+}
+.foott{
+    font-size: 12px;
+    font-family:"Roboto", sans-serif;
+}
+.celu, h6{
+    margin-left: 4.5%;
+    font-size: 16px;
+    color: black;
+}
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 40px;
+}
+.btn-wsp:hover{
+    text-decoration: none;
+    color: #25D366;
+    background-color: white;
+}
+
+
+
+
+
+>>>>>>> 885f5df8db4c9e8fa88ae9219247791167193531
